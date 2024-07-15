@@ -9,16 +9,20 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <div class="card">
-      <h1 class="card__title">Título</h1>
-      <p class="card__text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quis
-        mollitia sequi, quae voluptatem, eligendi, nam repudiandae cupiditate ad
-        consequatur natus omnis ducimus pariatur excepturi in magni voluptas
-        repellat quasi?
-      </p>
-      <a class="card__button" href="">boton</a>
-    </div>
+    <main class="main">
+      <h1 class="title">WORDLE</h1>
+      <div id="game-board" class="game-board"></div>
+      <form id="user-word-form">
+        <input
+          type="text"
+          name="word"
+          class="input"
+          placeholder="type your solution"
+        />
+      </form>
+    </main>
+    <div id="modal" class="modal"></div>
+    <div id="pop-up" class="pop-up"></div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
